@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-div{
+.main-title{
+    padding-top: 1em;
+    color: blue;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
     margin: auto;
     width: 50%;
 }
 
-.test-class{
-    color: blue;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
+.choice-container{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 2em;
 }
 
+.choice-selection{
+    margin:auto;
+    
+
+}
